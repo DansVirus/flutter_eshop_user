@@ -6,7 +6,6 @@ import 'package:flutter_eshop_user/providers/telescope_provider.dart';
 import 'package:flutter_eshop_user/providers/user_provider.dart';
 import 'package:flutter_eshop_user/utils/colors.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
-import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/cart_provider.dart';
