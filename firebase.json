@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "eshop24-flutter",
+          "appId": "1:232969538927:android:709cfe5178581479172c9a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "eshop24-flutter",
+          "configurations": {
+            "android": "1:232969538927:android:709cfe5178581479172c9a",
+            "ios": "1:232969538927:ios:718b9b440ff35dea172c9a",
+            "web": "1:232969538927:web:13cebf07a055d81b172c9a"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
